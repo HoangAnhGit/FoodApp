@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza"
+            android:id="@+id/tv_name_food"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_food"
+            android:src="@drawable/pop_1"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_cost"
+            android:text="8$"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add cart"
+            android:id="@+id/btn_add"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="4dp"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

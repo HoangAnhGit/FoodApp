@@ -1,9 +1,26 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.FoodApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#FF5E00</item>
+        <item name="colorPrimaryVariant">#E65100</item> <!-- Màu đậm hơn -->
+        <item name="colorOnPrimary">@color/white</item>
+
+
+
+        <!-- Background, surface, and error colors (optional, đẹp hơn) -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">#B00020</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+
+        <!-- Customize typography and shape -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
     </style>
+
 
     <style name="Theme.FoodApp" parent="Base.Theme.FoodApp" />
 </resources>
